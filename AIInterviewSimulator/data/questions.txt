@@ -1,0 +1,48 @@
+# FORMAT: ROLE|DIFFICULTY|CATEGORY|QUESTION|keyword1,keyword2/synonym,keyword3
+# '/' separates synonyms, ',' separates concepts. Lines starting with # are ignored.
+# You can add your own questions at the end of this file.
+JAVA_DEVELOPER|BEGINNER|OOP|What is OOP?|object,class,encapsulation,inheritance,polymorphism,abstraction
+JAVA_DEVELOPER|BEGINNER|Java Basics|What is the difference between JDK, JRE and JVM?|jdk/development kit,jre,jvm/virtual machine,compile/compiler,bytecode,run/execute/runtime
+JAVA_DEVELOPER|BEGINNER|Data Types|What is a variable and what are the primitive data types in Java?|variable,int,double,boolean,char,primitive,memory/store
+JAVA_DEVELOPER|INTERMEDIATE|OOP|Explain inheritance in Java.|parent/superclass/super class/base class,child/subclass/sub class/derived,extends,reuse/reusable,override/overriding,is-a/is a
+JAVA_DEVELOPER|INTERMEDIATE|Collections|What is the difference between ArrayList and LinkedList?|array/dynamic array/resizable,linked/doubly linked,node,index/random access,insert/insertion/delete/deletion,faster/performance,memory
+JAVA_DEVELOPER|INTERMEDIATE|Exception Handling|What is exception handling in Java?|try,catch,finally,throw,checked,unchecked/runtime,error/exception
+JAVA_DEVELOPER|ADVANCED|Multithreading|Explain multithreading in Java.|thread,runnable,concurrent/concurrency/parallel,synchronized/synchronization,race condition,executor/thread pool,lifecycle/life cycle
+JAVA_DEVELOPER|ADVANCED|Collections|How does a HashMap work internally?|hashcode/hash,bucket/array,collision,equals,linked list/tree/treeify,resize/load factor/rehash
+JAVA_DEVELOPER|ADVANCED|Memory Management|Explain garbage collection and memory management in Java.|heap,stack,garbage,unreachable/no reference/reference,young/old/generation,memory leak
+WEB_DEVELOPER|BEGINNER|HTTP Basics|What is HTTP?|protocol,request,response,client,server,get/post,status code/status
+WEB_DEVELOPER|BEGINNER|Web Fundamentals|What is the difference between frontend and backend?|frontend/front end/client side,backend/back end/server side,html,css,javascript,database,user interface/ui
+WEB_DEVELOPER|BEGINNER|Web Fundamentals|What are HTML, CSS and JavaScript used for?|html/structure,css/style/styling,javascript/behavior/behaviour/interactive,browser,web page/webpage
+WEB_DEVELOPER|INTERMEDIATE|REST APIs|What is a REST API?|rest,http,get,post,put/update,delete,json,stateless,endpoint/resource
+WEB_DEVELOPER|INTERMEDIATE|CSS|Explain the CSS box model.|content,padding,border,margin,width/height,box-sizing/box sizing
+WEB_DEVELOPER|INTERMEDIATE|HTTP Basics|What is the difference between GET and POST?|get,post,retrieve/fetch/read,submit/send/create,url/query string,body,secure/security,idempotent/cache
+WEB_DEVELOPER|ADVANCED|Web Security|Explain CORS and why it exists.|origin,browser,same-origin/same origin,header,access-control/allow,security,preflight
+WEB_DEVELOPER|ADVANCED|Performance|How would you improve the performance of a website?|caching/cache,minify/minification/compress,cdn,lazy loading/lazy,image/images,reduce requests/fewer requests/http requests
+WEB_DEVELOPER|ADVANCED|Web Security|Explain authentication vs authorization and how JWT works.|authentication,authorization,token,jwt,signature,payload,session/cookie
+SOFTWARE_ENGINEER|BEGINNER|Data Structures|What is the difference between an array and a linked list?|array,linked list,index,node/pointer,memory,insert/insertion,contiguous
+SOFTWARE_ENGINEER|BEGINNER|Data Structures|What is a stack and a queue?|stack,queue,lifo/last in first out,fifo/first in first out,push/pop,enqueue/dequeue/add/remove
+SOFTWARE_ENGINEER|BEGINNER|Version Control|What is version control and why is Git used?|version/history,git,commit,branch,merge,collaborate/collaboration/team,repository/repo
+SOFTWARE_ENGINEER|INTERMEDIATE|Algorithms|Explain Big-O notation with examples.|time complexity/complexity,worst case/worst,o(n)/linear,o(1)/constant,o(log n)/logarithmic,input size/input,scalability/efficiency
+SOFTWARE_ENGINEER|INTERMEDIATE|Operating Systems|What is the difference between a process and a thread?|process,thread,memory,share/shared,context switch,lightweight,concurrency/parallel
+SOFTWARE_ENGINEER|INTERMEDIATE|Software Design|Explain the SOLID principles.|single responsibility,open,liskov,interface segregation,dependency inversion,maintainable/maintainability/clean
+SOFTWARE_ENGINEER|ADVANCED|Databases|What is the difference between SQL and NoSQL databases?|sql/relational,nosql,schema,table,document,scale/scalable/scalability,acid,join
+SOFTWARE_ENGINEER|ADVANCED|System Design|Explain how you would design a URL shortener.|hash/base62/encode,database/storage,unique/id,redirect,cache,scale/scalable/scalability,collision
+SOFTWARE_ENGINEER|ADVANCED|System Design|Explain microservices versus monolithic architecture.|monolith/monolithic,microservice,independent,deploy/deployment,scale/scalable/scalability,api/communication,complexity/overhead
+DATA_ANALYST|BEGINNER|Data Cleaning|What is data cleaning?|missing,duplicate,outlier,inconsistent/incorrect/error,format,accuracy/quality
+DATA_ANALYST|BEGINNER|Statistics|What is the difference between mean, median and mode?|mean/average,median,mode,middle,frequent/most often,outlier
+DATA_ANALYST|BEGINNER|Databases|What is a primary key in a database?|unique,identify/identifier,row/record,table,null,primary key
+DATA_ANALYST|INTERMEDIATE|SQL|Explain the different types of SQL joins.|inner,left,right,full/outer,table,match/common,key/column
+DATA_ANALYST|INTERMEDIATE|SQL|What is the difference between WHERE and HAVING in SQL?|where,having,group by,aggregate,filter,row/rows,before/after
+DATA_ANALYST|INTERMEDIATE|Data Cleaning|How do you handle missing values in a dataset?|missing,remove/drop/delete,impute/fill/replace,mean/median/mode,pattern/reason/investigate
+DATA_ANALYST|ADVANCED|Statistics|Explain correlation versus causation.|correlation,causation,relationship,confounding/third variable/other factor,experiment,coefficient,not imply/does not imply/doesn't imply
+DATA_ANALYST|ADVANCED|Experimentation|What is A/B testing and how do you run one?|control,variant/treatment,hypothesis,sample,significance/significant/p-value,metric/conversion,random
+DATA_ANALYST|ADVANCED|Communication|How would you explain a complex analysis to a non-technical stakeholder?|audience/stakeholder,simple/plain/jargon,visual/chart/dashboard,story/narrative,insight/recommendation,action/decision
+GENERAL_HR|BEGINNER|Self Introduction|Tell me about yourself.|education/degree/college,skills,experience/project/internship,strength/passion/interest,goal/future/career,role/position
+GENERAL_HR|BEGINNER|Personality|What are your strengths?|strength,example/for instance,skill,team/teamwork,learn,problem solving/problem-solving,result/achieve
+GENERAL_HR|BEGINNER|Motivation|Why should we hire you?|skill,experience/project,contribute/value/benefit,team,learn/quick learner,company,passion/motivated
+GENERAL_HR|INTERMEDIATE|Behavioural|Describe a time you faced a challenge and how you handled it.|situation/challenge,task,action/approach/step,result/outcome,learn/lesson,team,solved/resolved
+GENERAL_HR|INTERMEDIATE|Career Goals|Where do you see yourself in five years?|grow/growth,skill,career/role,lead/leadership,contribute/company,learn,goal
+GENERAL_HR|INTERMEDIATE|Stress Management|How do you handle pressure and tight deadlines?|prioritize/prioritise/priority,plan/schedule,calm,communicate/communication,task,deadline,focus/organize/organise
+GENERAL_HR|ADVANCED|Teamwork|Tell me about a time you disagreed with a teammate.|listen,understand/perspective,respect,communicate/communication,compromise/solution,outcome/result,professional
+GENERAL_HR|ADVANCED|Behavioural|Describe a time you failed and what you learned from it.|failure/mistake,responsibility/ownership,learn/lesson,improve,action/step,result,feedback
+GENERAL_HR|ADVANCED|Leadership|How would you lead a team that is missing its targets?|goal/target,root cause/reason,communicate/communication,support/motivate,plan/strategy,track/monitor/measure,feedback
